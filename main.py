@@ -5,6 +5,7 @@ if __name__ == "__main__":
     customtkinter.set_default_color_theme('green')
 
     root = customtkinter.CTk()
+    root.title('PCFind')
     # Welcome
     root.geometry('500x350')
     welcome = WelcomeScreen(root)
