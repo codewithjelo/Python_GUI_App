@@ -1,5 +1,6 @@
 import customtkinter
 from PIL import Image
+from utils.main_menu import *
 
 
 class WelcomeScreen():
@@ -24,5 +25,5 @@ class WelcomeScreen():
                                                    text_color='white')
         description_label.pack(padx=10)
 
-        shop_button = customtkinter.CTkButton(master=self.frame, text='SHOP', command='', font=('Montserrat', 18))
+        shop_button = customtkinter.CTkButton(master=self.frame, text='SHOP', font=('Montserrat', 18))
         shop_button.pack(pady=(100, 0), padx=10)
