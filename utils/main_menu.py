@@ -134,31 +134,31 @@ class App(customtkinter.CTk):
         self.fan_label.grid(row=0, column=0, padx=10, pady=10, sticky='W')
 
         # BUTTONS
-        self.gpu_button = customtkinter.CTkButton(self.gpu_frame, text='DETAILS')
+        self.gpu_button = customtkinter.CTkButton(self.gpu_frame, text='SELECT')
         self.gpu_button.grid(row=0, column=1, padx=(45,10))
 
-        self.cpu_button = customtkinter.CTkButton(self.cpu_frame, text='DETAILS')
+        self.cpu_button = customtkinter.CTkButton(self.cpu_frame, text='SELECT')
         self.cpu_button.grid(row=0, column=1, padx=(45,10))
 
-        self.ram_button = customtkinter.CTkButton(self.ram_frame, text='DETAILS')
+        self.ram_button = customtkinter.CTkButton(self.ram_frame, text='SELECT')
         self.ram_button.grid(row=0, column=1, padx=(32,10))
 
-        self.mobo_button = customtkinter.CTkButton(self.mobo_frame, text='DETAILS')
+        self.mobo_button = customtkinter.CTkButton(self.mobo_frame, text='SELECT')
         self.mobo_button.grid(row=0, column=1, padx=(25,10))
 
-        self.power_supply_button = customtkinter.CTkButton(self.power_supply_frame, text='DETAILS')
+        self.power_supply_button = customtkinter.CTkButton(self.power_supply_frame, text='SELECT')
         self.power_supply_button.grid(row=0, column=1, padx=(46,10))
 
-        self.hdd_button = customtkinter.CTkButton(self.hdd_frame, text='DETAILS')
+        self.hdd_button = customtkinter.CTkButton(self.hdd_frame, text='SELECT')
         self.hdd_button.grid(row=0, column=1, padx=(46,10))
 
-        self.ssd_button = customtkinter.CTkButton(self.ssd_frame, text='DETAILS')
+        self.ssd_button = customtkinter.CTkButton(self.ssd_frame, text='SELECT')
         self.ssd_button.grid(row=0, column=1, padx=10)
 
-        self.cooler_button = customtkinter.CTkButton(self.cooler_frame, text='DETAILS')
+        self.cooler_button = customtkinter.CTkButton(self.cooler_frame, text='SELECT')
         self.cooler_button.grid(row=0, column=1, padx=(38,10))
 
-        self.fan_button = customtkinter.CTkButton(self.fan_frame, text='DETAILS')
+        self.fan_button = customtkinter.CTkButton(self.fan_frame, text='SELECT')
         self.fan_button.grid(row=0, column=1, padx=(38,10))
 
         # END REGION
