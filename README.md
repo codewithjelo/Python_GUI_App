@@ -6,18 +6,16 @@
     2. `Greet` the customer
 
 ## Main Screen
-1. `PC Parts` / `Peripheral`
+1. `PC Parts`
     1. Brand
     2. Specification
     3. Price
     4. Add Order and Remove Order
-         1. Print the receipt 
-2. `Search Bar`
-    1. `Product ID` / `Product Type`
-3. `Contacts`
+         1. Print the receipt
+2. `Contacts`
     1. `Email`
     2. `Telephone`
-4. `Developers`
-    1. Jann Angelo Dimaano
-    2. Bien Marlon Maranan
-    3. Alvin Jan Josef Espino
+### `Developers`
+    Jann Angelo Dimaano
+    Bien Marlon Maranan
+    Alvin Jan Josef Espino
