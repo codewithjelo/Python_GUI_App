@@ -413,7 +413,6 @@ class App(customtkinter.CTk):
         self.add_order_button.grid(row=1, column=0, padx=2, pady=4, sticky='NSEW')
         self.add_order_button.configure(anchor='center')
 
-
         # END REGION
 
         # ------------------------------------------ GRID CONFIGURATIONS ----------------------------------- #
